@@ -26,6 +26,10 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    message = "The line is currently:"
     
-  katz_deli
+  array.each_with_index do |name, index|
+    message += " #{index.to_i+1}. #{value}"
+  end
+  
+end
