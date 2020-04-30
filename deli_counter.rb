@@ -28,4 +28,4 @@ def line(array)
   else
     puts "The line is currently:"
     
-  array.each do |value, index|
+  katz_deli
